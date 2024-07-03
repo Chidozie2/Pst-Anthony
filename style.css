@@ -2,36 +2,4 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-}
-
-body {
-  text-align: center;
-}
-body .navbar {
-  background-color: rgba(25, 2, 87, 0.733);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 25px;
-  height: 55px;
-}
-body .navdiv {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-body .logo a {
-  font-size: 30px;
-  font-weight: 550;
-  color: white;
-}
-body li {
-  list-style: none;
-  display: inline-block;
-}
-body li a {
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  margin-right: 25px;
 }/*# sourceMappingURL=style.css.map */
