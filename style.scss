@@ -4,10 +4,13 @@
     text-decoration: none;
 }
 body{
-   text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+//    
+padding-bottom: 30px;
     .nav-bar{
         background-color: crimson;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding-left: 15px;
         padding-right: 15px;
         padding-top: 25px;
@@ -19,12 +22,15 @@ body{
        justify-content: space-between;
        
     }
+    .li-1 :hover{
+        background-color: blue;
+    }
     .logo a{
         font-size: 45px;
         font-weight: 600;
         color: blue;
     }
-    li{
+    .li-1{
         list-style: none;
         display: inline-block;
     }
@@ -37,11 +43,101 @@ body{
     .main-section{
         // border: 1px solid blue;
         display: flex;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding: 25px;
-        font-size: 130px;
-        font-weight: 700px;
     }
+    .ptag{
+        text-align: center;
+        text-decoration: underline 3px solid blue;
+    }
+    .ptag-1{
+        font-size: 120px;
+        font-weight: 700px;
+
+    }
+    .ptag-2{
+        font-size: 35px;
+        font-weight: bold;
+        padding-top: 40px;
+    }
+    .section-2{
+        padding: 25px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+    }
+    .span1{
+        padding: 30px;
+    }
+    .span2{
+        padding: 30px;
+    }
+    .span3{
+        padding: 30px;
+    }
+    .Lm-btn{
+        background-color: blue;
+        font-size: 25px;
+        border-radius: 6px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .sect3{
+        display: flex;
+    }
+    .div-span{
+        background-color: crimson ;
+        margin: 25px;
+        padding: 15px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .dp-div{
+        margin-top: 55px;
+        margin-right: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 40px;
+        background-color: rgba(194, 194, 194, 0.788);
+        border-radius: 7px;
+    }
+    .cj-div{
+        margin-top: 55px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        background-color: rgba(194, 194, 194, 0.788);
+        border-radius: 7px;
+    }
+    .dp-div2{
+        margin-top: 55px;
+        margin-left: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 30px;
+        background-color: rgba(194, 194, 194, 0.788);
+        border-radius: 7px;
+
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .snd-btn{
+        background-color: blue;
+        font-size: 25px;
+        border-radius: 6px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .foot-div{
+        font-size: 30px;
+    }
+   
     
    
 }
