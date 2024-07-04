@@ -21,7 +21,7 @@ body .nav-div {
   justify-content: space-between;
 }
 body .logo a {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 600;
   color: blue;
 }
@@ -31,21 +31,14 @@ body li {
 }
 body li a {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: bold;
   margin-right: 25px;
 }
 body .main-section {
-  border: 1px solid blue;
   display: flex;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 25px;
-  font-size: 30px;
-  font-weight: 800;
-}
-body .main-div1 {
-  border: 1px solid green;
-}
-body .main-div2 {
-  border: 1px solid green;
+  font-size: 130px;
+  font-weight: 700px;
 }/*# sourceMappingURL=style.css.map */
