@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../EldFrd"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pst Anthony"
+	}
+}
