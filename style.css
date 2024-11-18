@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgba(0, 0, 71, 0.575);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-bottom: 30px;
 }
@@ -103,7 +103,7 @@ body .dp-div {
   font-size: 25px;
   font-weight: bold;
   padding: 40px;
-  background-color: rgb(231, 229, 229);
+  background-color: rgba(61, 0, 97, 0.842);
   border-radius: 7px;
 }
 body .cj-div {
@@ -113,7 +113,7 @@ body .cj-div {
   font-size: 25px;
   font-weight: bold;
   padding: 30px;
-  background-color: rgb(231, 229, 229);
+  background-color: rgba(61, 0, 97, 0.842);
   border-radius: 7px;
 }
 body .dp-div2 {
@@ -122,8 +122,16 @@ body .dp-div2 {
   font-size: 25px;
   font-weight: bold;
   padding: 30px;
-  background-color: rgb(231, 229, 229);
+  background-color: rgba(61, 0, 97, 0.842);
   border-radius: 7px;
+}
+body .foot-sect {
+  text-align: center;
+}
+body .soc-p {
+  padding: 15px;
+  font-size: 30px;
+  font-weight: bold;
 }
 body footer {
   display: flex;

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgba(0, 0, 71, 0.575);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-bottom: 30px;
 }
@@ -48,4 +48,24 @@ li a {
   font-size: 25px;
   font-weight: bold;
   margin-right: 25px;
+}
+
+.sect-1 {
+  background-color: aqua;
+  border: 1px solid;
+  text-align: center;
+  height: auto;
+  padding: 30px;
+}
+
+.sect-p {
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 80px;
+  padding: 20px;
+}
+
+.ptag {
+  font-size: 30px;
+  font-weight: bold;
 }/*# sourceMappingURL=about.css.map */
