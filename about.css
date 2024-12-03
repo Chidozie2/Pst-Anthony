@@ -51,8 +51,6 @@ li a {
 }
 
 .sect-1 {
-  background-color: aqua;
-  border: 1px solid;
   text-align: center;
   height: auto;
   padding: 30px;
@@ -68,4 +66,16 @@ li a {
 .ptag {
   font-size: 30px;
   font-weight: bold;
+}
+
+.sect-2 {
+  text-align: center;
+  height: auto;
+  padding: 30px;
+}
+
+.sect-3 {
+  text-align: center;
+  height: auto;
+  padding: 30px;
 }/*# sourceMappingURL=about.css.map */
