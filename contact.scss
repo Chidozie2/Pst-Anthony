@@ -9,9 +9,9 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     // margin: 10px;
 //
+
 // color: white;    
 padding-bottom: 30px;
-}
     .nav-bar{
         background-color:rgb(129, 9, 9);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -27,7 +27,7 @@ padding-bottom: 30px;
        
     }
     .li-1 :hover{
-        background-color: rgb(5, 5, 129);
+        background-color:rgb(5, 5, 129);
         border-radius: 10px;
         padding: 10px;
     }
@@ -48,42 +48,4 @@ padding-bottom: 30px;
         font-weight: bold;
         margin-right: 25px;
     }
-    .sect-1{
-        // background-color: aqua;
-        // border: 1px solid;
-        text-align: center;
-        height: auto;
-        padding: 30px;
-
-    }
-    .sect-p{
-        font-weight: bold;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 80px;
-        padding: 20px;
-        color: blue;
-    }
-    .ptag{
-        font-size: 30px;
-        font-weight: bold;
-        padding: 15px;
-        
-    }
-    .sect-2{
-        // background-color: rgb(0, 81, 255);
-        // border: 1px solid;
-        text-align: center;
-        height: auto;
-        padding: 30px;
-
-    }
-    .sect-3{
-        text-align: center;
-        height: auto;
-        padding: 30px;
-
-    }
-    .btxt{
-        font-size: 40px;
-        color: blue;
-    }
+}

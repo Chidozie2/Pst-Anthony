@@ -9,8 +9,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-bottom: 30px;
 }
-
-.nav-bar {
+body .nav-bar {
   background-color: rgb(129, 9, 9);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-left: 15px;
@@ -18,71 +17,29 @@ body {
   padding-top: 25px;
   height: 75px;
 }
-
-.nav-div {
+body .nav-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-.li-1 :hover {
+body .li-1 :hover {
   background-color: rgb(5, 5, 129);
   border-radius: 10px;
   padding: 10px;
 }
-
-.logo a {
+body .logo a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 45px;
   font-weight: bolder;
   color: rgb(24, 44, 42);
 }
-
-.li-1 {
+body .li-1 {
   list-style: none;
   display: inline-block;
 }
-
-li a {
+body li a {
   color: white;
   font-size: 25px;
   font-weight: bold;
   margin-right: 25px;
-}
-
-.sect-1 {
-  text-align: center;
-  height: auto;
-  padding: 30px;
-}
-
-.sect-p {
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 80px;
-  padding: 20px;
-  color: blue;
-}
-
-.ptag {
-  font-size: 30px;
-  font-weight: bold;
-  padding: 15px;
-}
-
-.sect-2 {
-  text-align: center;
-  height: auto;
-  padding: 30px;
-}
-
-.sect-3 {
-  text-align: center;
-  height: auto;
-  padding: 30px;
-}
-
-.btxt {
-  font-size: 40px;
-  color: blue;
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=contact.css.map */
