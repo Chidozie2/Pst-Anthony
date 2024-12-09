@@ -15,10 +15,10 @@ padding-bottom: 30px;
     .nav-bar{
         background-color:rgb(129, 9, 9);
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 25px;
-        height: 75px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+        height: auto;
     }
     .nav-div{
        display: flex;
@@ -33,7 +33,7 @@ padding-bottom: 30px;
     }
     .logo a{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 45px;
+        font-size: 25px;
         font-weight: bolder;
         color: rgb(24, 44, 42)
     }
@@ -50,11 +50,25 @@ padding-bottom: 30px;
     }
     .main-section{
        
-        display: flex;
+        // display: flex;
+        text-align: center;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         padding: 25px;
-        background-image: img src="./sitebckgrd.jpg"
-        ;
+        background-repeat: no-repeat;
+        font-weight: bolder;
+        animation-name: example;
+        animation-duration: 10s;
+        animation-delay: -2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        background-size: cover;
+        
+    }
+    @keyframes example {
+      
+        from{background-image: url(./D.P..jpg); opacity: 0.9;}
+        to{background-image: url(./ConfidenceAkos.jpg); opacity: 0.9;}
+        
     }
     .ptag{
         text-align: center;
@@ -64,12 +78,13 @@ padding-bottom: 30px;
     .ptag-1{
         font-size: 90px;
         font-weight: 500px;
+        text-shadow: 3px 3px blue;
 
     }
     .ptag-2{
-        font-size: 35px;
-        font-weight: bold;
-        padding-top: 40px;
+        font-size: 65px;
+        font-weight: 30px;
+        padding-top: 30px;
     }
     .section-2{
         padding: 25px;

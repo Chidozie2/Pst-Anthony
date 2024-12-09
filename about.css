@@ -54,8 +54,23 @@ li a {
   text-align: center;
   height: auto;
   padding: 30px;
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
+@keyframes example {
+  0% {
+    background-image: url(./D.P..jpg);
+  }
+  100% {
+    background-image: url(./ConfidenceAkos.jpg);
+  }
+}
 .sect-p {
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
